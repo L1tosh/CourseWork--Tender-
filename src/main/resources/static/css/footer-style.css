@@ -1,0 +1,19 @@
+.footer {
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.footer .container {
+    background-color: #121212;
+    opacity: .9;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .container p{
+    margin-bottom: 0;
+}

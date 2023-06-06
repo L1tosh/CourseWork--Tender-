@@ -1,0 +1,223 @@
+/* Head offer*/
+.main .container {
+    border-radius: 7px;
+    margin: 15px auto 15px;
+    padding: 15px;
+}
+
+.title .container {
+    border: none;
+    padding: 20px 0 0 0;
+}
+
+/* User inf*/
+.container .user {
+    width: 100%;
+    height: 170px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+    padding: 10px;
+    display: flex;
+}
+
+.container .user .avatar {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 1);
+}
+
+.container .user .avatar img {
+    width: 145px;
+    height: 138px;
+    border-radius: 7px;
+    background-color: #fff;
+    opacity: .8;
+}
+
+.container .user .user-info {
+    width: 80%;
+    height: 150px;
+    margin-left: 20px;
+}
+.container .user .user-info p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Tender info*/
+.container .product-info {
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 300px;
+    height: 47vh;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+    padding: 20px;
+}
+
+
+/* Offers */
+/* head */
+.offer-head {
+    background-color: #212529;
+    border-radius: 7px;
+    width: 100%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+    opacity: .8;
+    color: #fff;
+}
+
+.offer-head ul {
+    padding: 5px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer-head li {
+    display: inline-block;
+    text-align: center;
+}
+
+.offer-head ul li:nth-child(1) {
+    width: 20%;
+    padding-left: 5px;
+}
+.offer-head ul li:nth-child(2) {
+    width: 55%;
+}
+.offer-head ul li:nth-child(3) {
+    width: 15%;
+}
+.offer-head ul li:nth-child(4) {
+    width: 10%;
+}
+
+/* offer */
+.offers .offer-info {
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.offers .offer-info div p {
+    margin: 0;
+}
+
+.offer-info div:nth-child(1){
+    width: 20%;
+}
+.offer-info div:nth-child(2){
+    width: 55%;
+}
+.offer-info div:nth-child(3){
+    width: 15%;
+}
+.offer-info div:nth-child(4){
+    width: 10%;
+}
+
+.offer-info div a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #121212;
+    opacity: .9;
+    transition: all .12s ease-in-out;
+}
+
+.offer-info div a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+/* Button add offer*/
+.container .add-offer {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+/* Offer form*/
+.offer-form {
+    padding-left: 10px;
+    width: 100%;
+}
+
+.offer-form form div {
+    display: flex
+}
+
+.offer-form form div div {
+    height: inherit;
+    width: 21%;
+    text-align: center;
+}
+
+.user-space {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #121212;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-space {
+    width: 100%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.offer-space form {
+    width: 100%;
+}
+
+.offer-space form div {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.offer-space form div div {
+    width: 21%;
+}
+
+.offer-space form div input {
+    height: 28px;
+    width: 100%;
+    padding: 3px;
+}
+
+.offer-space form div textarea {
+    width: 100%;
+    padding: 3px;
+}
+
+.name {
+    text-decoration: none;
+    color: black;
+}
+
+.name:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+
+

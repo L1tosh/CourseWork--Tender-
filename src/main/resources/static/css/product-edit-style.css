@@ -1,0 +1,34 @@
+.edit-form {
+    padding: 40px;
+}
+
+.edit-form form div {
+    width: 70%;
+    margin: 0 auto 10px;
+    justify-content: left;
+}
+
+.edit-form form div div{
+    width: fit-content;
+    justify-content: left;
+    margin: 0 0 3px 5px;
+}
+
+.edit-form form div:last-child {
+    display: flex;
+    justify-content: right;
+}
+
+.edit-form form input {
+    padding: 5px 5px 5px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.edit-form form textarea {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000;
+}

@@ -1,0 +1,86 @@
+.main .container {
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid #121212;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-nav {
+    width: 30%;
+    height: fit-content;
+    border: 1px solid #121212;
+    margin-right: 15px;
+}
+
+.user-nav .main-button ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+.main-button ul li {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #121212;
+}
+
+.main-button ul li:last-child {
+    width: 100%;
+    border: 0;
+}
+
+.main-button ul li a {
+    text-decoration: none;
+    color: #000;
+    opacity: .7;
+    transition: all .15s ease-in-out;
+}
+
+.main-button ul li a:hover {
+    opacity: 1;
+
+}
+
+/* User space*/
+.user-space {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #121212;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-space form div {
+    padding-bottom: 12px;
+}
+
+.user-space form div input {
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

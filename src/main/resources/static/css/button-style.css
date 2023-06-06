@@ -1,0 +1,18 @@
+.button {
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #000;
+    background-color: #fff;
+    padding: 3px 15px;
+    transition: all .15s ease-in-out;
+    font-weight: bold;
+    opacity: .8;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .8);
+}
+
+.button:hover {
+    border: 1px solid #000;
+    opacity: 1;
+    padding: 3px 15px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 1);
+}

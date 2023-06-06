@@ -1,0 +1,74 @@
+body {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container .registration {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    margin: 12% auto;
+    border-radius: 10px;
+    background-color: #212529;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 1);
+    opacity: .9;
+    padding: 30px;
+}
+
+.registration-form {
+    width: 100%;
+}
+
+.registration-form div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.registration-form div label {
+    width: 48%;
+}
+
+.registration-form div label input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 4px;
+}
+
+.registration-form div button {
+    margin: 25px auto 0;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #212529;
+    transition: all .12s ease-in-out;
+}
+
+.registration-form div button:hover {
+    /*font-weight: bold;*/
+    color: white;
+    background-color: #212529;
+    border: 1px solid #fff;
+}
+
+.massage {
+    width: 100%;
+    background-color: #de0000;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.massage .wrong-massage {
+    margin: 0 auto;
+    justify-content: center;
+}
